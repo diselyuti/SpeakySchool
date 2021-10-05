@@ -1,0 +1,32 @@
+header {
+  margin-top: 20px;
+  display: flex;
+  padding: 0 17% 0 17%;
+  justify-content: space-between; }
+  header .left_header {
+    display: flex;
+    width: 80%; }
+    header .left_header .header_logo {
+      display: flex; }
+  header .study_menu {
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.02em;
+    text-align: left; }
+    header .study_menu .teens {
+      display: flex;
+      margin-right: 13px; }
+      header .study_menu .teens div {
+        margin-right: 3px; }
+    header .study_menu img {
+      width: 20px; }
+  header .right_header {
+    display: flex; }
+
+/*# sourceMappingURL=header.css.map */

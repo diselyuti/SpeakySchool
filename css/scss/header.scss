@@ -1,0 +1,38 @@
+header{
+    margin-top: 20px;
+    display: flex;
+    padding: 0 17% 0 17%;
+    justify-content: space-between;
+    .left_header{
+        display: flex;
+        width: 80%;
+        .header_logo{
+            display: flex;
+        }
+    }
+    .study_menu{
+        margin-left: 10%;
+        display: flex;
+        align-items: center;
+        font-family: Raleway;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        .teens{
+            display: flex;
+            margin-right: 13px;
+            div{
+                margin-right: 3px;
+            }
+        }
+        img{
+            width: 20px;
+        }
+    }
+    .right_header{
+        display: flex;
+    }
+}
