@@ -1,0 +1,23 @@
+.unit_2 {
+  display: flex;
+  padding: 0 17% 0 17%; }
+  .unit_2 .text {
+    font-family: NEXT ART;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 34px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    width: 150px;
+    position: absolute;
+    top: 65px;
+    left: 71px;
+    background-color: white; }
+  .unit_2 .left {
+    margin-right: 97px;
+    position: relative; }
+  .unit_2 .right {
+    position: relative; }
+
+/*# sourceMappingURL=unit_2.css.map */

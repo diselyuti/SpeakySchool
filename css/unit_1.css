@@ -1,0 +1,32 @@
+.unit_1 {
+  display: flex;
+  padding: 75px 17% 0 17%; }
+  .unit_1 .left {
+    padding-top: 70px; }
+    .unit_1 .left .big_text {
+      font-family: NEXT ART;
+      font-size: 50px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: 66px;
+      letter-spacing: 0.02em;
+      text-align: left; }
+    .unit_1 .left .button_trial_lesson {
+      font-family: Raleway;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 18px;
+      letter-spacing: 0.01em;
+      text-align: left;
+      width: 230px;
+      margin-top: 40px;
+      padding: 18px 38px 18px 38px;
+      background-color: #236967;
+      color: white;
+      text-align: center;
+      border-radius: 30px; }
+      .unit_1 .left .button_trial_lesson:hover {
+        background-color: #30928f; }
+
+/*# sourceMappingURL=unit_1.css.map */

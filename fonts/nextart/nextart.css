@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'NEXT ART';
+    src: local('NEXT ART SemiBold'), local('NEXTART-SemiBold'), url('Nextartsemibold.woff2') format('woff2'), url('Nextartsemibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NEXT ART';
+    src: local('NEXT ART Light'), local('NEXTART-Light'), url('Nextartlight.woff2') format('woff2'), url('Nextartlight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NEXT ART';
+    src: local('NEXT ART'), local('NEXTART'), url('Nextart.woff2') format('woff2'), url('Nextart.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NEXT ART';
+    src: local('NEXT ART Heavy'), local('NEXTART-Heavy'), url('Nextartheavy.woff2') format('woff2'), url('Nextartheavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NEXT ART';
+    src: local('NEXT ART Bold'), local('NEXTART-Bold'), url('Nextartbold.woff2') format('woff2'), url('Nextartbold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
