@@ -1,2 +1,3 @@
+cd "D:\java jQuery\StudySchool"
 sass --watch css/scss:css/.
 // запускать в PowerShell из корневой папки

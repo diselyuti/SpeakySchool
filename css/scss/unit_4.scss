@@ -1,0 +1,92 @@
+.unit_4{
+    display: flex;
+    justify-content: center;
+    padding: 0 17% 0 17%;
+    margin-top: 140px;
+    height: 270px;
+    .left{
+        width: 338px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-right: 86px;
+        div{
+            font-family: Raleway;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 26px;
+            letter-spacing: 0.02em;
+            text-align: left;
+            color: #363636;
+        }
+        .maintext{
+            position: relative;
+            z-index: 2;
+            .text{
+                //styleName: h1;
+                font-family: NEXT ART;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 900;
+                line-height: 34px;
+                letter-spacing: 0.02em;
+                text-align: left;
+                z-index: 1;
+            }
+            .rectangle{
+                position: absolute;
+                height: 10px;
+                width: 100%;
+                background-color: #FFECA0;
+                bottom: 25px;
+                z-index: -1;
+            }
+        }
+    }
+    .middle{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 270px;
+        margin-right: 77px;
+        div{
+            display: flex;
+        }
+        h2{
+            font-family: Raleway;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 30px;
+            letter-spacing: 0px;
+            text-align: left;
+            color: #363636;
+        }
+        img{
+            margin-right: 40px;
+        }
+    }
+    .right{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 330px;
+        div{
+            display: flex;
+        }
+        h2{
+            font-family: Raleway;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 30px;
+            letter-spacing: 0px;
+            text-align: left;
+            color: #363636;
+        }
+        img{
+            margin-right: 40px;
+        }
+    }
+}
