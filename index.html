@@ -12,7 +12,9 @@
     <link rel="stylesheet" href="css/unit_2.css">
     <link rel="stylesheet" href="css/unit_3.css">
     <link rel="stylesheet" href="css/unit_4.css">
+    <link rel="stylesheet" href="css/unit_5.css">
     <link rel="stylesheet" href="fonts/nextart/nextart.css">
+    <link rel="stylesheet" href="fonts/raleway/raleway.css">
 </head>
 <body>
     <header>
@@ -133,5 +135,48 @@
             </div>
         </div>
     </div>
+    <div class="unit_5">
+        <div class="unit">
+            <div class="form">
+                <h1 class="header">Записаться на пробное занятие</h1>
+                <div class="age">
+                    <div class="old">
+                        <h2>Взрослые</h2>
+                        <div id="line_old"></div>
+                    </div>
+                    <div class="kid">
+                        <h2>Дети и подростки</h2>
+                        <div id="line_kid"></div>
+                    </div>
+                </div>
+                <input list="languages" class="languages_list">
+                <div class="type">
+                    <div class="online">
+                        <input type="radio" name="type" id="cb_online" checked>
+                        <h3>Онлайн-занятия</h3>
+                    </div>
+                    <div class="offline">
+                        <input type="radio" name="type" id="cb_offline">
+                        <h3>Занятия в клубе</h3>
+                    </div>
+                </div>
+                <div class="name_phone">
+                    <input type="text" placeholder="Имя">
+                    <input type="text" placeholder="Телефон">
+                </div>
+                <input type="email" class="input_email" placeholder="Почта">
+                <div id="button_sendForm">
+                    Отправить
+                </div>
+            </div>
+            <img src="img/images/illustration2.svg">
+        </div>
+    </div>
 </body>
 </html>
+<datalist id="languages">
+    <option value="Английский"></option>
+    <option value="Немецкий"></option>
+    <option value="Испанский"></option>
+    <option value="Французский"></option>
+</datalist>
