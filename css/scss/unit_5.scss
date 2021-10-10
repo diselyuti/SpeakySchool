@@ -32,7 +32,7 @@
                 display: flex;
                 justify-content: space-between;
                 h2{
-                    margin-bottom: 3px;
+                    margin-bottom: 10px;
                     font-family: Raleway;
                     font-size: 18px;
                     font-style: normal;
@@ -40,6 +40,12 @@
                     line-height: 30px;
                     letter-spacing: 0px;
                     text-align: center;
+                }
+                .old:hover{
+                    background-color: #ddd9ca;
+                }
+                .kid:hover{
+                    background-color: #ddd9ca;
                 }
                 #line_old{
                     width: 200px;

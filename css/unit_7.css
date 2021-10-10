@@ -1,0 +1,57 @@
+.unit_7 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 140px; }
+  .unit_7 .unit {
+    margin-top: 140px;
+    display: flex; }
+    .unit_7 .unit .for_kids {
+      position: relative;
+      font-family: NEXT ART;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: 34px;
+      letter-spacing: 0.02em;
+      text-align: left; }
+      .unit_7 .unit .for_kids .rectangle {
+        position: absolute;
+        top: 18px;
+        height: 10px;
+        width: 35%;
+        background-color: #FFECA0;
+        z-index: -1; }
+      .unit_7 .unit .for_kids .columns {
+        display: flex;
+        margin-right: 84px; }
+        .unit_7 .unit .for_kids .columns .column {
+          width: 225px;
+          margin-right: 26px;
+          display: flex;
+          flex-direction: column; }
+          .unit_7 .unit .for_kids .columns .column h2 {
+            font-family: Raleway;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 30px;
+            letter-spacing: 0px;
+            text-align: left; }
+          .unit_7 .unit .for_kids .columns .column h3 {
+            font-family: Raleway;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 26px;
+            letter-spacing: 0.02em;
+            text-align: left; }
+          .unit_7 .unit .for_kids .columns .column .lines {
+            display: flex;
+            flex-direction: column; }
+            .unit_7 .unit .for_kids .columns .column .lines img {
+              margin-right: 10.67px; }
+            .unit_7 .unit .for_kids .columns .column .lines .line {
+              display: flex; }
+
+/*# sourceMappingURL=unit_7.css.map */
