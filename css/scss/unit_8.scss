@@ -1,0 +1,106 @@
+.unit_8{
+    display: flex;
+    justify-content: center;
+    h1{
+        font-family: NEXT ART;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 34px;
+        letter-spacing: 0.02em;
+        text-align: left;
+    }
+    h2{
+        font-family: Raleway;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: 0px;
+        text-align: center;
+    }
+    h3{
+        font-family: Raleway;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 26px;
+        letter-spacing: 0.02em;
+        text-align: left;
+    }
+    .unit{
+        .topic{
+            max-width: 420px;
+        }
+        .smart{
+            display: flex;
+            div{
+                position: relative;
+                margin: 45px;
+                img{
+                    position: absolute;
+                    z-index: -2;
+                    height: 100px;
+                }
+                h2{
+                    width: 130px;
+                    max-width: 130px;
+                }
+                h3{
+                    text-align: center;
+                }
+            }
+        }
+        .example{
+            display: flex;
+            h2{
+                text-align: left;
+            }
+            h3{
+                max-width: 435px;
+                margin-top: 12px;
+            }
+            img{
+                margin-right: 55px;
+            }
+            .text{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+        }
+        .steps{
+            margin-top: 60px;
+            display: flex;
+            flex-direction: column;
+            .step{
+                margin-top: 50px;
+                display: flex;
+                justify-content: space-around;
+                div{
+                    h2{
+                        margin-left: 20px;
+                        text-align: left;
+                        max-width: 210px;
+                    }
+                    h3{
+                        max-width: 330px;
+                    }
+                    position: relative;
+                    img{
+                        position: absolute;
+                        z-index: -2;
+                        top: 5px;
+                        left: 5px;
+                    }
+                }
+                .right{
+                    margin-right: 341px;
+                }
+                .left{
+                    margin-left: 280px;
+                }
+            }
+        }
+    }
+}

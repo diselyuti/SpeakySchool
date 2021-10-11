@@ -1,0 +1,83 @@
+.unit_8 {
+  display: flex;
+  justify-content: center; }
+  .unit_8 h1 {
+    font-family: NEXT ART;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 34px;
+    letter-spacing: 0.02em;
+    text-align: left; }
+  .unit_8 h2 {
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: center; }
+  .unit_8 h3 {
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0.02em;
+    text-align: left; }
+  .unit_8 .unit .topic {
+    max-width: 420px; }
+  .unit_8 .unit .smart {
+    display: flex; }
+    .unit_8 .unit .smart div {
+      position: relative;
+      margin: 45px; }
+      .unit_8 .unit .smart div img {
+        position: absolute;
+        z-index: -2;
+        height: 100px; }
+      .unit_8 .unit .smart div h2 {
+        width: 130px;
+        max-width: 130px; }
+      .unit_8 .unit .smart div h3 {
+        text-align: center; }
+  .unit_8 .unit .example {
+    display: flex; }
+    .unit_8 .unit .example h2 {
+      text-align: left; }
+    .unit_8 .unit .example h3 {
+      max-width: 435px;
+      margin-top: 12px; }
+    .unit_8 .unit .example img {
+      margin-right: 55px; }
+    .unit_8 .unit .example .text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+  .unit_8 .unit .steps {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column; }
+    .unit_8 .unit .steps .step {
+      margin-top: 50px;
+      display: flex;
+      justify-content: space-around; }
+      .unit_8 .unit .steps .step div {
+        position: relative; }
+        .unit_8 .unit .steps .step div h2 {
+          margin-left: 20px;
+          text-align: left;
+          max-width: 210px; }
+        .unit_8 .unit .steps .step div h3 {
+          max-width: 330px; }
+        .unit_8 .unit .steps .step div img {
+          position: absolute;
+          z-index: -2;
+          top: 5px;
+          left: 5px; }
+      .unit_8 .unit .steps .step .right {
+        margin-right: 341px; }
+      .unit_8 .unit .steps .step .left {
+        margin-left: 280px; }
+
+/*# sourceMappingURL=unit_8.css.map */
