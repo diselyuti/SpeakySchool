@@ -1,0 +1,79 @@
+.footer{
+    height: 430px;
+    background-color: #FFFBED;
+    border-radius: 70px 70px 0px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    h1{
+        font-family: NEXT ART;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 34px;
+        letter-spacing: 0.02em;
+        text-align: left;
+    }
+    h2{
+        font-family: Raleway;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: 0px;
+        text-align: left;
+    }
+    h3{
+        font-family: Raleway;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 26px;
+        letter-spacing: 0.02em;
+        text-align: left;
+    }
+    .left{
+        max-width: 175px;
+    }
+    .center{
+        margin-top: -75px;
+        .logo{
+            display: flex;
+            align-items: center;
+        }
+        .networks{
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .button{
+            color: white;
+            background-color: #236967;
+            max-width: 214px;
+            max-height: 54px;
+            padding: 18px 38px 18px 38px;
+            margin-top: 40px;
+            border-radius: 30px;
+            font-family: Raleway;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 18px;
+            letter-spacing: 0.01em;
+            text-align: center;
+        }
+        .button:hover{
+            background-color: #38aaa6;
+        }
+    }
+    .right{
+        max-width: 175px;
+        h2{
+            text-align: right;
+        }
+        h3{
+            text-align: right;
+        }
+    }
+}
