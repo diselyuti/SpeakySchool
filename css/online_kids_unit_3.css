@@ -1,0 +1,40 @@
+.unit_3 {
+  margin: 140px 0 140px 0;
+  display: flex;
+  justify-content: center; }
+  .unit_3 .unit {
+    padding: 100px 0 100px 0;
+    width: 1260px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #FFFBED;
+    border-radius: 70px; }
+    .unit_3 .unit .big_text {
+      max-width: 335px;
+      font-family: NEXT ART;
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: 44px;
+      letter-spacing: 0.02em;
+      text-align: left; }
+    .unit_3 .unit .button_trial_lesson_2 {
+      font-family: Raleway;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 18px;
+      letter-spacing: 0.01em;
+      text-align: left;
+      width: 230px;
+      margin-top: 40px;
+      padding: 18px 38px 18px 38px;
+      background-color: #236967;
+      color: white;
+      text-align: center;
+      border-radius: 30px; }
+      .unit_3 .unit .button_trial_lesson_2:hover {
+        background-color: #30928f; }
+
+/*# sourceMappingURL=online_kids_unit_3.css.map */

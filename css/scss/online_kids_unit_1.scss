@@ -1,0 +1,43 @@
+.unit_1{
+    margin: 140px 0 140px 0;
+    display: flex;
+    justify-content: center;
+    .unit{
+        display: flex;
+        align-items: center;
+        .left{
+            margin-right: 200px;
+            .big_text{
+                font-family: NEXT ART;
+                font-size: 50px;
+                font-style: normal;
+                font-weight: 900;
+                line-height: 66px;
+                letter-spacing: 0.02em;
+                text-align: left;
+                max-width: 600px;
+            }
+            .button_trial_lesson_1{
+                font-family: Raleway;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 18px;
+                letter-spacing: 0.01em;
+                text-align: left;
+    
+                width: 230px;
+                margin-top: 40px;
+                padding: 18px 38px 18px 38px;
+                background-color: #236967;
+                color: white;
+                text-align: center;
+                border-radius: 30px;
+                &:hover{
+                    background-color: #30928f;
+                }
+            }
+        }
+        
+    }
+}

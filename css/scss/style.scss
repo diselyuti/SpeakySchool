@@ -1,0 +1,35 @@
+h1{
+    font-family: NEXT ART;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 34px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+h2{
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+h3{ 
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+.rectangle{
+    position: absolute;
+    height: 10px;
+    width: 383px;
+    background-color: #FFECA0;
+    bottom: 25px;
+    z-index: -1;
+}
