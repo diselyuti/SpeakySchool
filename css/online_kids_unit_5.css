@@ -1,0 +1,26 @@
+.unit_5 {
+  margin: 140px 0 140px 0;
+  display: flex;
+  justify-content: center; }
+  .unit_5 .unit {
+    display: flex;
+    align-items: center; }
+    .unit_5 .unit img {
+      margin-right: 75px; }
+    .unit_5 .unit .right {
+      position: relative; }
+      .unit_5 .unit .right h1 {
+        max-width: 347px; }
+      .unit_5 .unit .right .rectangle {
+        bottom: auto; }
+      .unit_5 .unit .right .bottom {
+        display: flex;
+        flex-direction: row; }
+        .unit_5 .unit .right .bottom .col {
+          display: flex;
+          flex-direction: column;
+          margin-right: 50px; }
+          .unit_5 .unit .right .bottom .col .line {
+            margin-top: 40px; }
+
+/*# sourceMappingURL=online_kids_unit_5.css.map */

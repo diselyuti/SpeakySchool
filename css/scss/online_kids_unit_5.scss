@@ -1,0 +1,33 @@
+.unit_5{
+    margin: 140px 0 140px 0;
+    display: flex;
+    justify-content: center;
+    .unit{
+        display: flex;
+        align-items: center;
+        img{
+            margin-right: 75px;
+        }
+        .right{
+            position: relative;
+            h1{
+                max-width: 347px;
+            }
+            .rectangle{
+                bottom: auto;
+            }
+            .bottom{
+                display: flex;
+                flex-direction: row;
+                .col{
+                    display: flex;
+                    flex-direction: column;
+                    margin-right: 50px;
+                    .line{
+                        margin-top: 40px;
+                    }
+                }
+            }
+        }
+    }
+}
