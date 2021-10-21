@@ -1,0 +1,23 @@
+<svg width="300" height="150" viewBox="0 0 300 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="150" height="150" fill="#FE7167"/>
+<rect x="39.3213" y="17" width="8.92857" height="53.5714" fill="white"/>
+<rect x="21.6885" y="28.0024" width="8.92857" height="53.5714" transform="rotate(-45 21.6885 28.0024)" fill="white"/>
+<rect width="8.92857" height="53.5714" transform="matrix(-0.707107 -0.707107 -0.707107 0.707107 65.8828 28.0024)" fill="white"/>
+<rect x="17" y="48.25" width="8.92857" height="53.5714" transform="rotate(-90 17 48.25)" fill="white"/>
+<rect x="39.3213" y="80.5713" width="8.92857" height="53.5714" fill="white"/>
+<rect x="21.6885" y="91.5737" width="8.92857" height="53.5714" transform="rotate(-45 21.6885 91.5737)" fill="white"/>
+<rect width="8.92857" height="53.5714" transform="matrix(-0.707107 -0.707107 -0.707107 0.707107 65.8828 91.5737)" fill="white"/>
+<rect x="17" y="111.821" width="8.92857" height="53.5714" transform="rotate(-90 17 111.821)" fill="white"/>
+<rect x="102.893" y="17" width="8.92857" height="53.5714" fill="white"/>
+<rect x="85.2598" y="28.0024" width="8.92857" height="53.5714" transform="rotate(-45 85.2598 28.0024)" fill="white"/>
+<rect width="8.92857" height="53.5714" transform="matrix(-0.707107 -0.707107 -0.707107 0.707107 129.454 28.0024)" fill="white"/>
+<rect x="80.5713" y="48.25" width="8.92857" height="53.5714" transform="rotate(-90 80.5713 48.25)" fill="white"/>
+<rect x="102.893" y="80.5713" width="8.92857" height="53.5714" fill="white"/>
+<rect x="85.2598" y="91.5737" width="8.92857" height="53.5714" transform="rotate(-45 85.2598 91.5737)" fill="white"/>
+<rect width="8.92857" height="53.5714" transform="matrix(-0.707107 -0.707107 -0.707107 0.707107 129.454 91.5737)" fill="white"/>
+<rect x="80.5713" y="111.821" width="8.92857" height="53.5714" transform="rotate(-90 80.5713 111.821)" fill="white"/>
+<path d="M150 0L300 0V150H150V0Z" fill="#236967"/>
+<path d="M150 70C150 31.3401 181.34 0 220 0L225 0V150H220C181.34 150 150 118.66 150 80V70Z" fill="#FFCC1A"/>
+<rect x="187.5" y="75.3804" width="53.5714" height="53.5714" transform="rotate(-45 187.5 75.3804)" fill="#FDE9D4"/>
+<circle cx="225" cy="74.9995" r="7.5" fill="black"/>
+</svg>

@@ -1,4 +1,4 @@
-state_5 = "old";
+var state_5 = "old";
 $(".kid_5").click(function(){
     state_5 = "kid";
     $("#line_kid_5").css("background-color", "#236967");

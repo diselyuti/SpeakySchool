@@ -1,0 +1,133 @@
+.unit_6{
+    margin: 140px 0 140px 0;
+    display: flex;
+    justify-content: center;
+    .unit{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        .rectangle{
+            top: 32px;
+            bottom: auto;
+            width: 250px;
+        }
+        .type{
+            display: flex;
+            margin-bottom: 20px;
+            div{
+                position: relative;
+                width: 260px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                h2{
+                    margin-bottom: 0;
+                }
+                .underline{
+                    position: absolute;
+                    width: 260px;
+                    height: 2px;
+                    background-color: #94C6C4;
+                    bottom: 0;
+                }
+            }
+            .indiv{
+                margin-right: 20px;
+            }
+            .indiv:hover{
+                background-color: whitesmoke;
+            }
+            .common:hover{
+                background-color: whitesmoke;
+            }
+        }
+        .time{
+            display: flex;
+            margin-bottom: 40px;
+            div{
+                position: relative;
+                width: 140px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                h2{
+                    margin-bottom: 0;
+                }
+                .underline{
+                    position: absolute;
+                    width: 140px;
+                    height: 2px;
+                    background-color: #94C6C4;
+                    bottom: 0;
+                }
+            }
+            .min30{
+                margin-right: 20px;
+            }
+            .min30:hover{
+                background-color: whitesmoke;
+            }
+            .min60:hover{
+                background-color: whitesmoke;
+            }
+        }
+        .time{
+            display: flex;
+        }
+        .tablets{
+            display: flex;
+            .tablet{
+                background-color: #FFFBED;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                border-radius: 30px;
+                h2{
+                    margin-top: 40px;
+                }
+                img{
+                    border-top-left-radius: 30px;
+                    border-top-right-radius: 30px;
+                }
+                .price{
+                    font-family: NEXT ART;
+                    font-size: 22px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 30px;
+                    letter-spacing: 0.02em;
+                    text-align: center;
+                    margin-bottom: 58px;
+                }
+                .button{
+                    background-color: #236967;
+                    border-radius: 30px;
+                    padding: 18px 38px 18px 38px;
+                    text-align: center;
+                    color: white;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-bottom: 62px;
+
+                    font-family: Raleway;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 18px;
+                    letter-spacing: 0.01em;
+                    text-align: left;
+                }
+                .button:hover{
+                    background-color: #47ccc8;
+                }
+            }
+            .middle{
+                margin-left: 75px;
+                margin-right: 75px;
+                margin-top: -10px;
+            }
+        }
+    }
+}

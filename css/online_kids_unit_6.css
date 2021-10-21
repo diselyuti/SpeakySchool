@@ -1,0 +1,108 @@
+.unit_6 {
+  margin: 140px 0 140px 0;
+  display: flex;
+  justify-content: center; }
+  .unit_6 .unit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative; }
+    .unit_6 .unit .rectangle {
+      top: 32px;
+      bottom: auto;
+      width: 250px; }
+    .unit_6 .unit .type {
+      display: flex;
+      margin-bottom: 20px; }
+      .unit_6 .unit .type div {
+        position: relative;
+        width: 260px;
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+        .unit_6 .unit .type div h2 {
+          margin-bottom: 0; }
+        .unit_6 .unit .type div .underline {
+          position: absolute;
+          width: 260px;
+          height: 2px;
+          background-color: #94C6C4;
+          bottom: 0; }
+      .unit_6 .unit .type .indiv {
+        margin-right: 20px; }
+      .unit_6 .unit .type .indiv:hover {
+        background-color: whitesmoke; }
+      .unit_6 .unit .type .common:hover {
+        background-color: whitesmoke; }
+    .unit_6 .unit .time {
+      display: flex;
+      margin-bottom: 40px; }
+      .unit_6 .unit .time div {
+        position: relative;
+        width: 140px;
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+        .unit_6 .unit .time div h2 {
+          margin-bottom: 0; }
+        .unit_6 .unit .time div .underline {
+          position: absolute;
+          width: 140px;
+          height: 2px;
+          background-color: #94C6C4;
+          bottom: 0; }
+      .unit_6 .unit .time .min30 {
+        margin-right: 20px; }
+      .unit_6 .unit .time .min30:hover {
+        background-color: whitesmoke; }
+      .unit_6 .unit .time .min60:hover {
+        background-color: whitesmoke; }
+    .unit_6 .unit .time {
+      display: flex; }
+    .unit_6 .unit .tablets {
+      display: flex; }
+      .unit_6 .unit .tablets .tablet {
+        background-color: #FFFBED;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 30px; }
+        .unit_6 .unit .tablets .tablet h2 {
+          margin-top: 40px; }
+        .unit_6 .unit .tablets .tablet img {
+          border-top-left-radius: 30px;
+          border-top-right-radius: 30px; }
+        .unit_6 .unit .tablets .tablet .price {
+          font-family: NEXT ART;
+          font-size: 22px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 30px;
+          letter-spacing: 0.02em;
+          text-align: center;
+          margin-bottom: 58px; }
+        .unit_6 .unit .tablets .tablet .button {
+          background-color: #236967;
+          border-radius: 30px;
+          padding: 18px 38px 18px 38px;
+          text-align: center;
+          color: white;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-bottom: 62px;
+          font-family: Raleway;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 18px;
+          letter-spacing: 0.01em;
+          text-align: left; }
+        .unit_6 .unit .tablets .tablet .button:hover {
+          background-color: #47ccc8; }
+      .unit_6 .unit .tablets .middle {
+        margin-left: 75px;
+        margin-right: 75px;
+        margin-top: -10px; }
+
+/*# sourceMappingURL=online_kids_unit_6.css.map */
