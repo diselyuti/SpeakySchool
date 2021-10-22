@@ -1,0 +1,38 @@
+.unit_2_2{
+    .unit{
+        .rectangle{
+            width: 381px;
+        }
+        .bottom{
+            margin-top: 40px;
+            img{
+                margin-right: 33px;
+            }
+            .left{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                margin-right: 200px;
+                div{
+                    height: 120px;
+                    max-width: 380px;
+                }
+                .bottom{
+                    margin-top: 0;
+                }
+            }
+            .right{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                div{
+                    height: 120px;
+                    width: 431px;
+                }
+                .bottom{
+                    margin-top: 0;
+                }
+            }
+        }
+    }
+}

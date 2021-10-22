@@ -1,0 +1,27 @@
+.unit_2_2 .unit .rectangle {
+  width: 381px; }
+.unit_2_2 .unit .bottom {
+  margin-top: 40px; }
+  .unit_2_2 .unit .bottom img {
+    margin-right: 33px; }
+  .unit_2_2 .unit .bottom .left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 200px; }
+    .unit_2_2 .unit .bottom .left div {
+      height: 120px;
+      max-width: 380px; }
+    .unit_2_2 .unit .bottom .left .bottom {
+      margin-top: 0; }
+  .unit_2_2 .unit .bottom .right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; }
+    .unit_2_2 .unit .bottom .right div {
+      height: 120px;
+      width: 431px; }
+    .unit_2_2 .unit .bottom .right .bottom {
+      margin-top: 0; }
+
+/*# sourceMappingURL=offline_kids.css.map */
