@@ -36,3 +36,39 @@
         }
     }
 }
+.unit_6{
+    .unit{
+        .type{
+            margin-bottom: 40px;
+            .indivOffline{
+                margin-right: 20px;
+            }
+            .groups{
+                margin-right: 20px;
+            }
+            .groups:hover{
+                background-color: whitesmoke;
+            }
+            .indivOffline:hover{
+                background-color: whitesmoke;
+            }
+            .commonOffline:hover{
+                background-color: whitesmoke;
+            }
+        }
+        .tablets{
+            .someInfo{
+                font-family: Raleway;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 300;
+                line-height: 14px;
+                letter-spacing: 0.02em;
+                text-align: left;
+
+                margin: -30px 0 30px 0;
+                display: none;
+            }
+        }
+    }
+}

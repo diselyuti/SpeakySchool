@@ -24,4 +24,27 @@
     .unit_2_2 .unit .bottom .right .bottom {
       margin-top: 0; }
 
+.unit_6 .unit .type {
+  margin-bottom: 40px; }
+  .unit_6 .unit .type .indivOffline {
+    margin-right: 20px; }
+  .unit_6 .unit .type .groups {
+    margin-right: 20px; }
+  .unit_6 .unit .type .groups:hover {
+    background-color: whitesmoke; }
+  .unit_6 .unit .type .indivOffline:hover {
+    background-color: whitesmoke; }
+  .unit_6 .unit .type .commonOffline:hover {
+    background-color: whitesmoke; }
+.unit_6 .unit .tablets .someInfo {
+  font-family: Raleway;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 14px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  margin: -30px 0 30px 0;
+  display: none; }
+
 /*# sourceMappingURL=offline_kids.css.map */
