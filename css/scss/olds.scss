@@ -1,0 +1,183 @@
+.unit_1{
+    .left{
+        .small_text{
+            margin-top: 20px;
+
+            font-family: Raleway;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px;
+            letter-spacing: 0px;
+            text-align: left;
+        }
+    }
+}
+.unit_2{
+    margin-top: 100px;
+}
+.unit_4{
+    margin-top: 140px;
+
+    display: flex;
+    justify-content: center;
+    .unit{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .right{
+            margin-left: 90px;
+            h1{
+                max-width: 410px;
+            }
+            h3{
+                max-width: 450px;
+            }
+        }
+    }
+}
+.unit_5{
+    margin-top: 140px;
+
+    display: flex;
+    justify-content: center;
+    .unit{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .rectangle{
+            bottom: auto;
+            top: 32px;
+            width: 320px;
+        }
+        .tablet{
+            display: flex;
+            .col{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                margin: 50px 45px 0 45px;
+                h2{
+                    max-width: 150px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+.unit_6{
+    margin-top: 140px;
+
+    display: flex;
+    justify-content: center;
+    .unit{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        .rectangle{
+            bottom: auto;
+            top: 32px;
+            width: 74px;
+        }
+        .total{
+            display: flex;
+            align-items: center;
+            h3{
+                max-width: 300px;
+                margin-right: 120px;
+            }
+            .right{
+                display: flex;
+                .col{
+                    max-width: 210px;
+                    display: flex;
+                    align-items: center;
+                    img{
+                        margin-right: 35px;
+                    }
+                }
+            }
+        }
+    }
+}
+.unit_7{
+    margin: 140px 0 0 0;
+    display: flex;
+    justify-content: center;
+    .unit{
+        padding: 100px 0 100px 0;
+        width: 1260px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: #FFFBED;
+        border-radius: 70px;
+        z-index: 0;
+        .left{
+            position: relative;
+            .rectangle{
+                bottom: auto;
+                z-index: -0.5;
+            }
+            h3{
+                max-width: 320px;
+                margin-top: 30px;
+            }
+        }
+        .big_text{
+            max-width: 520px;
+            font-family: NEXT ART;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 44px;
+            letter-spacing: 0.02em;
+            text-align: left;
+        }
+        .button_trial_lesson_2{
+            font-family: Raleway;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 18px;
+            letter-spacing: 0.01em;
+            text-align: left;
+
+            width: 230px;
+            margin-top: 40px;
+            padding: 18px 38px 18px 38px;
+            background-color: #236967;
+            color: white;
+            text-align: center;
+            border-radius: 30px;
+            &:hover{
+                background-color: #30928f;
+            }
+        }
+    }
+}
+.unit_8{
+    margin-top: 140px;
+
+    display: flex;
+    justify-content: center;
+    .unit{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .rectangle{
+            bottom: auto;
+            top: 32px;
+            width: 247px;
+        }
+        h2{
+            margin: 30px 0 90px 0;
+        }
+    }    
+}
+.footer{
+    margin-top: 140px;
+}

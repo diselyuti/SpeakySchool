@@ -15,9 +15,12 @@
     left: 71px;
     background-color: white; }
   .unit_2 .left {
-    margin-right: 97px;
+    margin-right: 50px;
     position: relative; }
   .unit_2 .right {
     position: relative; }
+  .unit_2 .middle {
+    position: relative;
+    margin-right: 50px; }
 
 /*# sourceMappingURL=unit_2.css.map */
