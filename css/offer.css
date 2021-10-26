@@ -1,0 +1,54 @@
+.top {
+  display: flex;
+  justify-content: center;
+  margin: 75px 0 100px 0; }
+  .top .left {
+    display: flex;
+    flex-direction: column; }
+    .top .left h2 {
+      margin-bottom: 60px; }
+    .top .left .t1 {
+      font-family: NEXT ART;
+      font-size: 50px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: 66px;
+      letter-spacing: 0.02em;
+      text-align: left;
+      margin: 15px 30px 7px 0; }
+    .top .left .t2 {
+      font-family: Raleway;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 30px;
+      letter-spacing: 0px;
+      text-align: left;
+      margin-bottom: 60px; }
+    .top .left .t3 {
+      font-family: Raleway;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 26px;
+      letter-spacing: 0.02em;
+      text-align: left;
+      max-width: 620px;
+      margin-right: 80px; }
+
+.info {
+  display: flex;
+  justify-content: center; }
+  .info .left {
+    display: flex;
+    flex-direction: column;
+    max-width: 620px;
+    margin-right: 20px; }
+  .info .right {
+    display: flex;
+    flex-direction: column;
+    max-width: 620px; }
+  .info .title {
+    margin-bottom: 100px; }
+
+/*# sourceMappingURL=offer.css.map */

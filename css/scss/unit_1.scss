@@ -1,36 +1,61 @@
 .unit_1{
     display: flex;
-    padding: 75px 17% 0 17%;
-    .left{
-        padding-top: 70px;
-        .big_text{
-            font-family: NEXT ART;
-            font-size: 50px;
-            font-style: normal;
-            font-weight: 900;
-            line-height: 66px;
-            letter-spacing: 0.02em;
-            text-align: left;
-        }
-        .button_trial_lesson{
-            font-family: Raleway;
-            font-size: 18px;
-            font-style: normal;
-            font-weight: 600;
-            line-height: 18px;
-            letter-spacing: 0.01em;
-            text-align: left;
+    justify-content: center;
+    .unit{
+        display: flex;
+        padding: 75px 0 0 0;
+        .left{
+            padding-top: 70px;
+            .big_text{
+                font-family: NEXT ART;
+                font-size: 50px;
+                font-style: normal;
+                font-weight: 900;
+                line-height: 66px;
+                letter-spacing: 0.02em;
+                text-align: left;
 
-            width: 230px;
-            margin-top: 40px;
-            padding: 18px 38px 18px 38px;
-            background-color: #236967;
-            color: white;
-            text-align: center;
-            border-radius: 30px;
-            &:hover{
-                background-color: #30928f;
+                max-width: 665px;
+            }
+            .button_trial_lesson{
+                font-family: Raleway;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 18px;
+                letter-spacing: 0.01em;
+                text-align: left;
+    
+                width: 230px;
+                margin-top: 40px;
+                padding: 18px 38px 18px 38px;
+                background-color: #236967;
+                color: white;
+                text-align: center;
+                border-radius: 30px;
+                &:hover{
+                    background-color: #30928f;
+                }
             }
         }
     }
 }
+@media (max-width: 1350px){
+    .unit_1{
+        .unit{
+            align-items: center;
+            flex-direction: column;
+            margin-bottom: 80px;
+            .big_text{
+                max-width: 300px;
+            }
+            .button_trial_lesson{
+                margin-bottom: 60px;
+            }
+            img{
+                width: 75%;
+            }
+        }
+    }
+}
+

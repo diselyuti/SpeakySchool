@@ -1,45 +1,52 @@
 .unit_3 {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 140px 17% 0 17%;
-  padding: 0 0 0 213px;
-  background-color: #FFFBED;
-  border-radius: 70px;
-  height: 274px; }
-  .unit_3 .maintext {
-    position: relative;
-    z-index: 2; }
-    .unit_3 .maintext .text {
-      font-family: NEXT ART;
-      font-size: 24px;
-      font-style: normal;
-      font-weight: 900;
-      line-height: 34px;
-      letter-spacing: 0.02em;
-      text-align: left;
-      z-index: 1; }
-    .unit_3 .maintext .rectangle {
-      position: absolute;
-      height: 10px;
-      width: 383px;
-      background-color: #FFECA0;
-      bottom: 25px;
-      z-index: -1; }
-  .unit_3 .languages {
-    display: flex; }
-    .unit_3 .languages div {
-      display: flex;
-      margin-right: 40px; }
-    .unit_3 .languages img {
-      margin-right: 30px; }
-    .unit_3 .languages .lang_text {
-      font-family: Raleway;
-      font-size: 18px;
-      font-style: normal;
-      font-weight: 500;
-      line-height: 30px;
-      letter-spacing: 0px;
-      text-align: left; }
+  justify-content: center; }
+  .unit_3 .unit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 140px 0 0 0;
+    padding: 0 0 0 213px;
+    background-color: #FFFBED;
+    border-radius: 70px;
+    height: 274px;
+    width: 1000px; }
+    .unit_3 .unit .maintext {
+      position: relative;
+      z-index: 2; }
+      .unit_3 .unit .maintext .text {
+        font-family: NEXT ART;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 34px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        z-index: 1; }
+      .unit_3 .unit .maintext .rectangle {
+        position: absolute;
+        height: 10px;
+        width: 383px;
+        background-color: #FFECA0;
+        bottom: 25px;
+        z-index: -1; }
+    .unit_3 .unit .languages {
+      display: flex; }
+      .unit_3 .unit .languages div {
+        display: flex;
+        margin-right: 40px; }
+      .unit_3 .unit .languages img {
+        margin-right: 30px; }
+      .unit_3 .unit .languages .lang_text {
+        font-family: Raleway;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: 0px;
+        text-align: left; }
+    @media (max-width: 1350px) {
+      .unit_3 .unit {
+        margin: 0; } }
 
 /*# sourceMappingURL=unit_3.css.map */

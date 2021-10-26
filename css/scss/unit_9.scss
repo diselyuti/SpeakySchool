@@ -15,6 +15,9 @@
             border-bottom-right-radius: 70px;
             right: 0;
         }
+        .img_form2{
+            display: none;
+        }
         .form{
             padding: 80px 0 0 100px;
             display: flex;
@@ -131,6 +134,22 @@
             #button_sendForm:hover{
                 background-color: #309794;
             }
+        }
+        // @media (max-width: 1350px){
+        //     flex-direction: column;
+        //     .img_form1{
+        //         display: none;
+        //     }
+        //     .img_form2{
+        //         display: block;
+        //         width: 440px;
+        //         border-top-right-radius: 0;
+        //         border-bottom-right-radius: 70px;
+        //         border-bottom-left-radius: 70px;
+        //     }
+        // }
+        @media (max-width: 1350px){
+            
         }
     }
 }

@@ -1,32 +1,48 @@
 .unit_2{
-    display: flex;
-    padding: 0 17% 0 17%;
-    .text{
-        //styleName: h1;
-        font-family: NEXT ART;
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 900;
-        line-height: 34px;
-        letter-spacing: 0.02em;
-        text-align: left;
+    .unit{
+        display: flex;
+        align-items: center;
+        margin-left: 17%;
+        .text{
+            //styleName: h1;
+            font-family: NEXT ART;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 34px;
+            letter-spacing: 0.02em;
+            text-align: left;
 
-        width: 150px;
-        position: absolute;
-        top: 65px;
-        left: 71px;
-        background-color: white;
-    }
-    
-    .left{
-        margin-right: 50px;
-        position: relative;
-    }
-    .right{
-        position: relative;
-    }
-    .middle{
-        position: relative;
-        margin-right: 50px;
+            width: 150px;
+            position: absolute;
+            top: 65px;
+            left: 71px;
+            background-color: white;
+        }
+        
+        .left{
+            margin-right: 50px;
+            position: relative;
+        }
+        .right{
+            position: relative;
+        }
+        .middle{
+            position: relative;
+            margin-right: 50px;
+        }
+        @media (max-width: 1350px){
+            flex-direction: column;
+            margin-left: 0;
+            div{
+                margin-bottom: 60px;
+            }
+            .left{
+                margin-right: 0;
+            }
+            img{
+                width: 200px;
+            }
+        }
     }
 }

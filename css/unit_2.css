@@ -1,7 +1,8 @@
-.unit_2 {
+.unit_2 .unit {
   display: flex;
-  padding: 0 17% 0 17%; }
-  .unit_2 .text {
+  align-items: center;
+  margin-left: 17%; }
+  .unit_2 .unit .text {
     font-family: NEXT ART;
     font-size: 24px;
     font-style: normal;
@@ -14,13 +15,23 @@
     top: 65px;
     left: 71px;
     background-color: white; }
-  .unit_2 .left {
+  .unit_2 .unit .left {
     margin-right: 50px;
     position: relative; }
-  .unit_2 .right {
+  .unit_2 .unit .right {
     position: relative; }
-  .unit_2 .middle {
+  .unit_2 .unit .middle {
     position: relative;
     margin-right: 50px; }
+  @media (max-width: 1350px) {
+    .unit_2 .unit {
+      flex-direction: column;
+      margin-left: 0; }
+      .unit_2 .unit div {
+        margin-bottom: 60px; }
+      .unit_2 .unit .left {
+        margin-right: 0; }
+      .unit_2 .unit img {
+        width: 200px; } }
 
 /*# sourceMappingURL=unit_2.css.map */
