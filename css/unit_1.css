@@ -15,6 +15,9 @@
         letter-spacing: 0.02em;
         text-align: left;
         max-width: 665px; }
+        @media (max-width: 400px) {
+          .unit_1 .unit .left .big_text {
+            font-size: 36px; } }
       .unit_1 .unit .left .button_trial_lesson {
         font-family: Raleway;
         font-size: 18px;
@@ -32,17 +35,19 @@
         border-radius: 30px; }
         .unit_1 .unit .left .button_trial_lesson:hover {
           background-color: #30928f; }
+      @media (max-width: 700px) {
+        .unit_1 .unit .left {
+          padding-left: 20px; } }
 
 @media (max-width: 1350px) {
   .unit_1 .unit {
     align-items: center;
-    flex-direction: column;
-    margin-bottom: 80px; }
+    flex-direction: column; }
     .unit_1 .unit .big_text {
       max-width: 300px; }
     .unit_1 .unit .button_trial_lesson {
       margin-bottom: 60px; }
     .unit_1 .unit img {
-      width: 75%; } }
+      display: none; } }
 
 /*# sourceMappingURL=unit_1.css.map */

@@ -2,7 +2,8 @@
     .unit{
         display: flex;
         align-items: center;
-        margin-left: 17%;
+        justify-content: center;
+        margin-right: 25%;
         .text{
             //styleName: h1;
             font-family: NEXT ART;
@@ -31,7 +32,10 @@
             position: relative;
             margin-right: 50px;
         }
-        @media (max-width: 1350px){
+        @media (max-width: 1350px) {
+            margin-bottom: 40px;
+        }
+        @media (max-width: 700px){
             flex-direction: column;
             margin-left: 0;
             div{

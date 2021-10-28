@@ -41,6 +41,9 @@
                 background-color: #FFECA0;
                 bottom: 25px;
                 z-index: -1;
+                @media (max-width: 1657px){
+                    display: none;
+                }
             }
         }
     }
@@ -87,6 +90,42 @@
         }
         img{
             margin-right: 40px;
+        }
+    }
+    @media (max-width: 1250px) {
+        flex-direction: column;
+        padding: 0;
+        height: auto;
+        align-items: center;
+        .middle{
+            margin-right: 0;
+            width: 40%;
+        }
+        .left{
+            div{
+                text-align: center;
+            }
+            margin: 0 0 40px 0;
+        }
+        .right{
+            width: 40%;
+        }
+    }
+    @media (max-width: 525px) {
+        align-items: flex-start;
+        padding-left: 20px;
+    }
+    .left{
+        @media (max-width: 525px) {
+            width: auto;
+            div{
+                text-align: left;
+            }
+        }
+    }
+    .middle{
+        @media (max-width: 525px) {
+            width: 99%;
         }
     }
 }

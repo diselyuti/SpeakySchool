@@ -57,5 +57,27 @@
         @media (max-width: 1350px){
             margin: 0;
         }
+        @media (max-width: 1211px) {
+            .languages{
+                flex-direction: column;
+            }
+            width: 50%;
+            height: 460px;
+            padding: 0;
+            align-items: center;
+        }
+        @media (max-width: 900px) {
+            .rectangle{
+                display: none;
+            }
+            .maintext{
+                .text{
+                    text-align: center;
+                }
+            }
+        }
+        @media (max-width: 760px) {
+            width: 100%;   
+        }
     }
 }

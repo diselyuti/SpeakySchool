@@ -51,7 +51,24 @@
               margin-right: 10.67px; }
             .unit_6 .unit .for_kids .columns .column .lines .line {
               display: flex; }
+        @media (max-width: 1051px) {
+          .unit_6 .unit .for_kids .columns {
+            flex-direction: column; } }
     .unit_6 .unit .illustration {
       margin-right: 120px; }
+      @media (max-width: 700px) {
+        .unit_6 .unit .illustration {
+          margin: 0;
+          width: 80%; } }
+    @media (max-width: 1100px) {
+      .unit_6 .unit {
+        flex-direction: column; }
+        .unit_6 .unit .for_kids {
+          margin-top: 40px; }
+          .unit_6 .unit .for_kids .columns .column {
+            width: 100%; } }
+    @media (max-width: 525px) {
+      .unit_6 .unit {
+        padding-left: 20px; } }
 
 /*# sourceMappingURL=unit_6.css.map */

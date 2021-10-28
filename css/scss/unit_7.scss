@@ -6,6 +6,9 @@
     .unit{
         margin-top: 140px;
         display: flex;
+        .illustration_adapt{
+            display: none;
+        }
         .for_kids{
             position: relative;
             font-family: NEXT ART;
@@ -61,6 +64,29 @@
                     }
                 }
             }
+        }
+        @media (max-width: 1051px){
+            flex-direction: column;
+            .for_kids {
+                margin-top: 40px;
+                .columns{
+                    flex-direction: column;
+                    .column{
+                        width: 100%;
+                    }
+                }
+                
+            }
+            .illustration{
+                display: none;
+            }
+            .illustration_adapt{
+                display: flex;
+                width: 80%;
+            }
+        }
+        @media (max-width: 525px) {
+            padding-left: 20px;
         }
     }
 }

@@ -34,6 +34,8 @@
         }
         .smart{
             display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
             div{
                 position: relative;
                 margin: 45px;
@@ -53,6 +55,8 @@
         }
         .example{
             display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
             h2{
                 text-align: left;
             }
@@ -62,11 +66,18 @@
             }
             img{
                 margin-right: 55px;
+                @media  (max-width: 550px){
+                    margin-right: 0;
+                    width: 80%;
+                }
             }
             .text{
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
+            }
+            @media (max-width: 681px) {
+                flex-direction: column;
             }
         }
         .steps{
@@ -96,11 +107,37 @@
                 }
                 .right{
                     margin-right: 341px;
+                    @media (max-width: 810px) {
+                        display: none;
+                    }
                 }
                 .left{
                     margin-left: 280px;
+                    @media (max-width: 810px) {
+                        display: none;
+                    }
+                }
+                .step5{
+                    margin-right: 300px;
+                    @media (max-width: 810px) {
+                        margin: 0;
+                    }
                 }
             }
+        }
+        @media (max-width: 1300px) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            h1{
+                text-align: center;
+            }
+            .topic{
+                text-align: center;
+            }
+        }
+        @media (max-width: 525px) {
+            padding-left: 20px;
         }
     }
 }

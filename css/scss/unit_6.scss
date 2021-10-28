@@ -58,10 +58,31 @@
                         }
                     }
                 }
+                @media (max-width: 1051px){
+                    flex-direction: column;
+                }
             }
         }
         .illustration{
             margin-right: 120px;
+            @media (max-width: 700px) {
+                margin: 0;
+                width: 80%;
+            }
+        }
+        @media (max-width: 1100px){
+            flex-direction: column;
+            .for_kids {
+                margin-top: 40px;
+                .columns{
+                    .column{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        @media (max-width: 525px) {
+            padding-left: 20px;
         }
     }
 }

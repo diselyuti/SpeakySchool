@@ -48,5 +48,21 @@
     @media (max-width: 1350px) {
       .unit_3 .unit {
         margin: 0; } }
+    @media (max-width: 1211px) {
+      .unit_3 .unit {
+        width: 50%;
+        height: 460px;
+        padding: 0;
+        align-items: center; }
+        .unit_3 .unit .languages {
+          flex-direction: column; } }
+    @media (max-width: 900px) {
+      .unit_3 .unit .rectangle {
+        display: none; }
+      .unit_3 .unit .maintext .text {
+        text-align: center; } }
+    @media (max-width: 760px) {
+      .unit_3 .unit {
+        width: 100%; } }
 
 /*# sourceMappingURL=unit_3.css.map */

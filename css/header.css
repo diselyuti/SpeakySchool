@@ -8,25 +8,44 @@ header {
     width: 80%; }
     header .left_header .header_logo {
       display: flex; }
-  header .study_menu {
-    margin-left: 10%;
-    display: flex;
-    align-items: center;
-    font-family: Raleway;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 26px;
-    letter-spacing: 0.02em;
-    text-align: left; }
-    header .study_menu .teens {
+      header .left_header .header_logo img {
+        width: 100%; }
+      @media (max-width: 525px) {
+        header .left_header .header_logo {
+          width: 30%; } }
+    header .left_header .study_menu {
+      margin-left: 10%;
       display: flex;
-      margin-right: 13px; }
-      header .study_menu .teens div {
-        margin-right: 3px; }
-    header .study_menu img {
-      width: 20px; }
+      align-items: center;
+      font-family: Raleway;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 26px;
+      letter-spacing: 0.02em;
+      text-align: left; }
+      header .left_header .study_menu .teens {
+        display: flex;
+        margin-right: 13px; }
+        header .left_header .study_menu .teens div {
+          margin-right: 3px; }
+      header .left_header .study_menu img {
+        width: 20px; }
+      @media (max-width: 1335px) {
+        header .left_header .study_menu {
+          display: none; } }
   header .right_header {
     display: flex; }
+    @media (max-width: 1335px) {
+      header .right_header {
+        display: none; } }
+  header .burger {
+    display: none; }
+    @media (max-width: 1335px) {
+      header .burger {
+        display: flex; } }
+  @media (max-width: 525px) {
+    header {
+      padding: 10px; } }
 
 /*# sourceMappingURL=header.css.map */

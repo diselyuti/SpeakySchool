@@ -28,9 +28,11 @@
       background-color: #FFECA0;
       z-index: -1; }
     .unit_10 .unit .timeline {
-      margin-top: 60px; }
+      margin-top: 60px;
+      width: 100%; }
     .unit_10 .unit .composition_history {
       display: flex;
+      flex-wrap: wrap;
       justify-content: space-evenly;
       margin-top: 75px; }
       .unit_10 .unit .composition_history div {
@@ -39,5 +41,13 @@
         justify-content: center; }
         .unit_10 .unit .composition_history div h2 {
           max-width: 250px; }
+      @media (max-width: 525px) {
+        .unit_10 .unit .composition_history img {
+          width: 80%; } }
+    @media (max-width: 1055px) {
+      .unit_10 .unit h1 {
+        text-align: center; }
+      .unit_10 .unit .rectangle {
+        display: none; } }
 
 /*# sourceMappingURL=unit_10.css.map */

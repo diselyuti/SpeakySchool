@@ -1,7 +1,8 @@
 .unit_2 .unit {
   display: flex;
   align-items: center;
-  margin-left: 17%; }
+  justify-content: center;
+  margin-right: 25%; }
   .unit_2 .unit .text {
     font-family: NEXT ART;
     font-size: 24px;
@@ -24,6 +25,9 @@
     position: relative;
     margin-right: 50px; }
   @media (max-width: 1350px) {
+    .unit_2 .unit {
+      margin-bottom: 40px; } }
+  @media (max-width: 700px) {
     .unit_2 .unit {
       flex-direction: column;
       margin-left: 0; }
