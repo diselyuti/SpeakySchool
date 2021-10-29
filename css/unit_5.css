@@ -40,16 +40,20 @@
           line-height: 30px;
           letter-spacing: 0px;
           text-align: center; }
+        .unit_5 .unit .form .age .old_5 {
+          width: 40%; }
+        .unit_5 .unit .form .age .kid_5 {
+          width: 40%; }
         .unit_5 .unit .form .age .old_5:hover {
           background-color: #ddd9ca; }
         .unit_5 .unit .form .age .kid_5:hover {
           background-color: #ddd9ca; }
         .unit_5 .unit .form .age #line_old_5 {
-          width: 200px;
+          width: 100%;
           height: 2px;
           background-color: #236967; }
         .unit_5 .unit .form .age #line_kid_5 {
-          width: 200px;
+          width: 100%;
           height: 2px;
           background-color: #94C6C4; }
       .unit_5 .unit .form .languages_list {
@@ -113,5 +117,29 @@
         text-align: center; }
       .unit_5 .unit .form #button_sendForm:hover {
         background-color: #309794; }
+  @media (max-width: 1100px) {
+    .unit_5 .unit {
+      width: 100%;
+      flex-direction: column; }
+      .unit_5 .unit .form {
+        padding: 80px 20px 0 20px; }
+        .unit_5 .unit .form .age h2 {
+          font-size: 14px; }
+        .unit_5 .unit .form .name_phone input {
+          width: 40%; }
+        .unit_5 .unit .form .type .offline {
+          width: auto; }
+        .unit_5 .unit .form #button_sendForm {
+          margin: auto;
+          margin-top: 28px; }
+      .unit_5 .unit .img_form1 {
+        display: none; }
+      .unit_5 .unit .img_form2 {
+        margin-top: 40px;
+        display: flex;
+        border-bottom-left-radius: 70px;
+        border-bottom-right-radius: 70px;
+        border-top-right-radius: 0px;
+        width: 100%; } }
 
 /*# sourceMappingURL=unit_5.css.map */

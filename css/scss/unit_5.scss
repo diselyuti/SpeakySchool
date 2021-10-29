@@ -44,6 +44,12 @@
                     letter-spacing: 0px;
                     text-align: center;
                 }
+                .old_5{
+                    width: 40%;
+                }
+                .kid_5{
+                    width: 40%;
+                }
                 .old_5:hover{
                     background-color: #ddd9ca;
                 }
@@ -51,12 +57,12 @@
                     background-color: #ddd9ca;
                 }
                 #line_old_5{
-                    width: 200px;
+                    width: 100%;
                     height: 2px;
                     background-color: #236967;
                 }
                 #line_kid_5{
-                    width: 200px;
+                    width: 100%;
                     height: 2px;
                     background-color: #94C6C4;
                 }
@@ -135,20 +141,44 @@
                 background-color: #309794;
             }
         }
-        // @media (max-width: 1350px){
-        //     flex-direction: column;
-        //     .img_form1{
-        //         display: none;
-        //     }
-        //     .img_form2{
-        //         display: block;
-        //         border-top-right-radius: 0;
-        //         border-bottom-right-radius: 70px;
-        //         border-bottom-left-radius: 70px;
-        //     }
-        //     #button_sendForm{
-        //         margin-bottom: 60px;
-        //     }
-        // }
+    }
+    @media (max-width: 1100px) {
+        .unit{
+            width: 100%;
+            flex-direction: column;
+            .form{
+                padding: 80px 20px 0 20px;
+                .age{
+                    h2{
+                        font-size: 14px;
+                    }
+                }
+                .name_phone{
+                    input{
+                        width: 40%;
+                    }
+                }
+                .type{
+                    .offline{
+                        width: auto;
+                    }
+                }
+                #button_sendForm{
+                    margin: auto;
+                    margin-top: 28px;
+                }
+            }
+            .img_form1{
+                display: none;
+            }
+            .img_form2{
+                margin-top: 40px;
+                display: flex;
+                border-bottom-left-radius: 70px;
+                border-bottom-right-radius: 70px;
+                border-top-right-radius: 0px;
+                width: 100%;
+            }
+        }
     }
 }

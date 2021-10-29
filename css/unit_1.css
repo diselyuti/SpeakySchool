@@ -15,9 +15,15 @@
         letter-spacing: 0.02em;
         text-align: left;
         max-width: 665px; }
-        @media (max-width: 400px) {
+        @media (max-width: 600px) {
           .unit_1 .unit .left .big_text {
-            font-size: 36px; } }
+            font-family: NEXT ART;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 40px;
+            letter-spacing: 0.02em;
+            text-align: left; } }
       .unit_1 .unit .left .button_trial_lesson {
         font-family: Raleway;
         font-size: 18px;
@@ -26,7 +32,8 @@
         line-height: 18px;
         letter-spacing: 0.01em;
         text-align: left;
-        width: 230px;
+        max-width: 230px;
+        width: 60%;
         margin-top: 40px;
         padding: 18px 38px 18px 38px;
         background-color: #236967;
