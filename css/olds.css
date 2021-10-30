@@ -1,15 +1,66 @@
-.unit_1 .left .small_text {
-  margin-top: 20px;
-  font-family: Raleway;
-  font-size: 22px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0px;
-  text-align: left; }
+.unit_1 {
+  margin-top: 100px;
+  align-items: center; }
+  .unit_1 .left {
+    width: 36%; }
+    .unit_1 .left .big_text {
+      font-family: NEXT ART;
+      font-size: 50px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: 66px;
+      letter-spacing: 0.02em;
+      text-align: left;
+      margin-right: 0;
+      width: 85%; }
+    .unit_1 .left .small_text {
+      margin-top: 20px;
+      font-family: Raleway;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 24px;
+      letter-spacing: 0px;
+      text-align: left; }
+    .unit_1 .left .button_trial_lesson {
+      font-family: Raleway;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 18px;
+      letter-spacing: 0.01em;
+      text-align: left;
+      max-width: 230px;
+      width: 60%;
+      margin-top: 40px;
+      padding: 18px 38px 18px 38px;
+      background-color: #236967;
+      color: white;
+      text-align: center;
+      border-radius: 30px; }
+      .unit_1 .left .button_trial_lesson:hover {
+        background-color: #30928f; }
 
 .unit_2 {
-  margin-top: 100px; }
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 100px 0 0 17%; }
+  .unit_2 div {
+    position: relative; }
+    .unit_2 div h1 {
+      margin: 0;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      background-color: white; }
+  .unit_2 .middle {
+    margin: 0 50px 0 50px; }
+
+.unit_3 {
+  display: flex; }
+  .unit_3 .languages {
+    display: flex; }
 
 .unit_4 {
   margin-top: 140px;

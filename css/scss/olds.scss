@@ -1,5 +1,19 @@
 .unit_1{
+    margin-top: 100px;
+    align-items: center;
     .left{
+        width: 36%;
+        .big_text{
+            font-family: NEXT ART;
+            font-size: 50px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 66px;
+            letter-spacing: 0.02em;
+            text-align: left;
+            margin-right: 0;
+            width: 85%;
+        }
         .small_text{
             margin-top: 20px;
 
@@ -10,11 +24,55 @@
             line-height: 24px;
             letter-spacing: 0px;
             text-align: left;
+
+        }
+
+        .button_trial_lesson{
+            font-family: Raleway;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 18px;
+            letter-spacing: 0.01em;
+            text-align: left;
+            max-width: 230px;
+            width: 60%;
+            margin-top: 40px;
+            padding: 18px 38px 18px 38px;
+            background-color: #236967;
+            color: white;
+            text-align: center;
+            border-radius: 30px;
+            &:hover{
+                    background-color: #30928f;
+            }
         }
     }
 }
 .unit_2{
     margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px 0 0 17%;
+    div{
+        position: relative;
+        h1{
+            margin: 0;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            background-color: white;
+        }
+    }
+    .middle{
+        margin: 0 50px 0 50px;
+    }
+}
+.unit_3{
+    display: flex;
+    .languages{
+        display: flex;
+    }
 }
 .unit_4{
     margin-top: 140px;
