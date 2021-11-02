@@ -181,6 +181,7 @@
   display: flex;
   justify-content: center; }
   .unit_8 .unit {
+    width: 100%;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -191,6 +192,71 @@
       width: 247px; }
     .unit_8 .unit h2 {
       margin: 30px 0 90px 0; }
+    .unit_8 .unit .choose {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .unit_8 .unit .choose .rectangleCH {
+        width: 66%;
+        height: 2px;
+        background-color: #61B5A9; }
+      .unit_8 .unit .choose .circles {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        position: absolute; }
+        .unit_8 .unit .choose .circles .circle {
+          height: 29px;
+          width: 29px;
+          border: 1px solid #689C9A;
+          border-radius: 15px;
+          background-color: #689C9A; }
+        .unit_8 .unit .choose .circles .shadow {
+          -webkit-box-shadow: 0px 1px 35px 26px rgba(104, 156, 154, 0.2);
+          -moz-box-shadow: 0px 1px 35px 26px rgba(104, 156, 154, 0.2);
+          box-shadow: 0px 1px 35px 26px rgba(104, 156, 154, 0.2); }
+        .unit_8 .unit .choose .circles #secondCirc {
+          margin: 0 15% 0 15%;
+          background-color: white; }
+        .unit_8 .unit .choose .circles #thirdCirc {
+          background-color: white; }
+    .unit_8 .unit .captions {
+      margin-top: 44px;
+      display: flex;
+      justify-content: center;
+      width: 100%; }
+      .unit_8 .unit .captions h2 {
+        margin: 0; }
+    .unit_8 .unit .boxes {
+      width: 45.75%;
+      margin-top: 40px;
+      display: flex;
+      justify-content: space-between; }
+      .unit_8 .unit .boxes .box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 234px;
+        height: 146px; }
+        .unit_8 .unit .boxes .box .line {
+          display: flex;
+          align-items: center;
+          max-width: 170px; }
+          .unit_8 .unit .boxes .box .line input {
+            margin-right: 14px;
+            background-color: yellow; }
+          .unit_8 .unit .boxes .box .line h3 {
+            margin: 13px 0 13px 0; }
+      .unit_8 .unit .boxes #box1 {
+        background-image: url("../img/symbols/502.svg"); }
+      .unit_8 .unit .boxes #box2 {
+        background-image: url("../img/symbols/503.svg");
+        height: 212px; }
+      .unit_8 .unit .boxes #box3 {
+        background-image: url("../img/symbols/504.svg");
+        height: 106px;
+        background-size: 100% 100%; }
 
 .footer {
   margin-top: 140px; }

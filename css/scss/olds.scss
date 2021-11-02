@@ -218,10 +218,11 @@
 }
 .unit_8{
     margin-top: 140px;
-
+    
     display: flex;
     justify-content: center;
     .unit{
+        width: 100%;
         position: relative;
         display: flex;
         flex-direction: column;
@@ -234,7 +235,90 @@
         h2{
             margin: 30px 0 90px 0;
         }
+        .choose{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .rectangleCH{
+                width: 66%;
+                height: 2px;
+                background-color: #61B5A9;
+            }
+            .circles{
+                display: flex;
+                justify-content: center;
+                width: 100%;
+                position: absolute;
+                .circle{
+                    height: 29px;
+                    width: 29px;
+                    border: 1px solid #689C9A;
+                    border-radius: 15px;
+                    background-color: #689C9A;
+                }
+                .shadow{
+                    -webkit-box-shadow: 0px 1px 35px 26px rgba(104, 156, 154, 0.2);
+                    -moz-box-shadow: 0px 1px 35px 26px rgba(104, 156, 154, 0.2);
+                    box-shadow: 0px 1px 35px 26px rgba(104, 156, 154, 0.2);
+                }
+                #secondCirc{
+                    margin: 0 15% 0 15%;
+                    background-color: white;
+                }
+                #thirdCirc{
+                    background-color: white;
+                }
+            }
+        }
+        .captions{
+            margin-top: 44px;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            h2{
+                margin: 0;
+            }
+        }
+        .boxes{
+            width: 45.75%;
+            margin-top: 40px;
+            display: flex;
+            justify-content: space-between;
+            .box{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 234px;
+                height: 146px;
+                .line{
+                    display: flex;
+                    align-items: center;
+                    max-width: 170px;
+                    input{
+                        margin-right: 14px;
+                        background-color: yellow;
+                    }
+                    h3{
+                        margin: 13px 0 13px 0;
+                    }
+                }
+            }
+            #box1{
+                background-image: url("../img/symbols/502.svg");
+            }
+            #box2{
+                background-image: url("../img/symbols/503.svg");
+                height: 212px;
+            }
+            #box3{
+                background-image: url("../img/symbols/504.svg");
+                height: 106px;
+                background-size: 100% 100%;
+            }
+        }
     }    
+    
 }
 .footer{
     margin-top: 140px;
