@@ -200,32 +200,58 @@
             <div class="boxes">
                 <div class="box" id="box1">
                     <div class="line" style="margin-top: 28px;">
-                        <input type="radio" name="distance">
+                        <input type="radio" name="distance" data-line="off">
                         <h3>Офлайн-занятия</h3>
                     </div>
                     <div class="line">
-                        <input type="radio" name="distance">
+                        <input type="radio" name="distance" data-line="on">
                         <h3>Онлайн-занятия</h3>
                     </div>                    
                 </div>
-                <div class="box" id="box2">
+                <div class="box" id="box2" style="display: none;">
                     <div class="line" style="margin-top: 25px;">
-                        <input type="radio" name="type">
+                        <input type="radio" name="type" data-type="ind">
                         <h3>Индивидуальные уроки</h3>
                     </div>
                     <div class="line">
-                        <input type="radio" name="type">
+                        <input type="radio" name="type" data-type="group">
                         <h3>Групповые уроки</h3>
                     </div>        
                     <div class="line">
-                        <input type="radio" name="type">
+                        <input type="radio" name="type" data-type="speaking">
                         <h3>Разговорный клуб</h3>
                     </div>                 
                 </div>
-                <div class="box" id="box3">
+                <div class="box" id="box3"  style="display: none;">
                     <div class="line" style="margin-top: 37px;">
                         <h3>60 минут</h3>
                     </div>                   
+                </div>
+            </div>
+            <div class="tablets" style="display: none;">
+                <div class="tablet left">
+                    <img id="leftImg" src="../img/images/20061.svg">
+                    <h2 id="leftH2">4 занятия по 30 мин</h2>
+                    <div id="priceLeft" class="price">3400 ₽ </div>
+                    <div class="button">
+                        Выбрать
+                    </div>
+                </div>
+                <div class="tablet middle">
+                    <img id="middleImg" src="../img/images/20062.svg">
+                    <h2 id="middleH2">8 занятий по 30 мин</h2>
+                    <div id="priceMiddle" class="price">6800 ₽</div>
+                    <div class="button">
+                        Выбрать
+                    </div>
+                </div>
+                <div class="tablet right">
+                    <img id="rightImg" src="../img/images/20063.svg">
+                    <h2 id="rightH2">12 занятий по 30 мин</h2>
+                    <div id="priceRight" class="price">10200 ₽</div>
+                    <div class="button">
+                        Выбрать
+                    </div>
                 </div>
             </div>
         </div>
@@ -305,6 +331,7 @@
         </div>
     </div>
     <script src="../js/unit_9.js"></script>
+    <script src="../js/olds.js"></script>
 </body>
 </html>
 <datalist id="languages">

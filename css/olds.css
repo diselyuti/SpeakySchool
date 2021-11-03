@@ -257,6 +257,51 @@
         background-image: url("../img/symbols/504.svg");
         height: 106px;
         background-size: 100% 100%; }
+    .unit_8 .unit .tablets {
+      margin-top: 100px;
+      display: flex; }
+      .unit_8 .unit .tablets .tablet {
+        background-color: #FFFBED;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 30px; }
+        .unit_8 .unit .tablets .tablet h2 {
+          margin: 40px 0 20px 0; }
+        .unit_8 .unit .tablets .tablet img {
+          border-top-left-radius: 30px;
+          border-top-right-radius: 30px; }
+        .unit_8 .unit .tablets .tablet .price {
+          font-family: NEXT ART;
+          font-size: 22px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 30px;
+          letter-spacing: 0.02em;
+          text-align: center;
+          margin-bottom: 58px; }
+        .unit_8 .unit .tablets .tablet .button {
+          background-color: #236967;
+          border-radius: 30px;
+          padding: 18px 38px 18px 38px;
+          text-align: center;
+          color: white;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-bottom: 62px;
+          font-family: Raleway;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 18px;
+          letter-spacing: 0.01em;
+          text-align: left; }
+        .unit_8 .unit .tablets .tablet .button:hover {
+          background-color: #47ccc8; }
+      .unit_8 .unit .tablets .middle {
+        margin-left: 75px;
+        margin-right: 75px; }
 
 .footer {
   margin-top: 140px; }
